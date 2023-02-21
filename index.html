@@ -104,7 +104,7 @@
           </ul>
 
           <a
-            href="#"
+            href="./login.html"
             class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 text-base font-bold leading-6 text-white whitespace-no-wrap bg-['rgba(2, 54, 110, 0.6)'] border-2 hover:border-main border-white rounded-full shadow-sm hover:bg-white hover:text-main focus:outline transition-200"
             >Masuk</a
           >
@@ -316,8 +316,9 @@
     <!-- End Tentang Kami -->
     <!-- Flow KK -->
     <section>
+      <div class="bg-[url('./Assets/Image/bg-flow-kk.svg')]  lg:mx-10 ">
       <div class="container px-5 mt-20">
-        <div class="bg bg-[url('./Assets/Image/bg-flow-kk.svg')] lg:mx-5">
+        
           <div class="px-10 flex flex-wrap">
             <div
               class="lg:grid lg:grid-cols-3 lg:grid-flow-col lg:gap-2 lg:pt-10"
@@ -510,8 +511,9 @@
               </div>
             </div>
           </div>
-        </div>
+        
       </div>
+    </div>
     </section>
     <!-- end Flow KK -->
     <!-- showcase -->
@@ -1953,21 +1955,21 @@
     <!-- End Artikel -->
     <!-- Ajakan Daftar -->
     <section class="bg-bg_colors h-[400px]">
-      <div class="container">
-        <div class="p-36">
-          <h1 class="text-center text-main font-semibold text-[40px]">
+      <div class="container lg:mb-10 mb-20 ">
+        <div class="lg:p-36  pt-36">
+          <h1 class="text-center text-main font-semibold lg:text-[40px] text-[20px]">
             Cobain Belajar Bareng Kafe Koding Sekarang!
           </h1>
           <div class="flex flex-nowrap justify-center mt-10 gap-10">
             <button
               type="button"
-              class="text-white bg-main focus:ring-4 focus:ring-blue-300 font-medium text-sm px-5 py-2.5 mr-2 mb-2 text-base font-bold leading-6 text-white whitespace-no-wrap bg-['rgba(2, 54, 110, 0.6)'] border-2 hover:border-main border-white rounded-full shadow-sm hover:bg-white hover:text-main focus:outline transition-200"
+              class="text-white bg-main focus:ring-4 focus:ring-blue-300 font-medium text-[10px] px-2 lg:px-5 lg:py-2.5 mr-2 mb-2 lg:text-base font-bold leading-6 text-white whitespace-no-wrap bg-['rgba(2, 54, 110, 0.6)'] border-2 hover:border-main border-white rounded-full shadow-sm hover:bg-white hover:text-main focus:outline transition-200"
             >
               Daftar Kelas Sekarang
             </button>
             <button
               type="button"
-              class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-main focus:outline-none bg-white border border-gray-200 text-base font-bold leading-6 whitespace-no-wrap bg-main border-2 hover:border-main border-white rounded-full shadow-sm hover:bg-white hover:text-main focus:outline transition-200"
+              class="py-2.5 px-2 lg:px-5 mr-2 mb-2 text-sm font-medium text-main text-[10px] focus:outline-none bg-white border border-gray-200 lg:text-base font-bold leading-6 whitespace-no-wrap bg-main border-2 hover:border-main border-white rounded-full shadow-sm hover:bg-white hover:text-main focus:outline transition-200"
             >
               Saya butuh bantuan
             </button>
@@ -1978,31 +1980,97 @@
     <!-- End ajakan Daftar -->
     <!-- Pertanyaan -->
     <section>
-      <div class="container h-[200px]">
+      <div class="container mt-10">
         <h1
-          class="text-center text-[20px] font-semibold text-main pt-20 lg:pt-0"
+          class="text-center text-[20px] font-semibold text-main pt-20 lg:pt-0 "
         >
           Pertanyaan yang sering ditanyakan
         </h1>
-        <div class="grid grid-cols-2 gap-4">
-          <div>
-            <div>
-              <select
-                id="countries"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                value="haiiiiii"
-              >
-                <option selected>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione officia molestias temporibus cum praesentium sapiente eos similique quia qui vero, deserunt odit quam ad ipsum inventore quos. Dicta, veniam quibusdam.</option>
-               
-              </select>
-            </div>
+        <div class="lg:grid lg:grid-cols-2 ">
+        <div> 
+          <div class="flex justify-center items-center p-5 w-full ">
+          <div class="bg-gray-100 w-full sm:w-1/2 lg:w-[500px] border border-gray-200 divide-y divide-gray-200 rounded-lg">
+            <details class="">
+              <summary class="question py-3 px-4 cursor-pointer select-none w-full outline-none ">Apa Itu Komunitas Kafekoding ?</summary>
+              <p class="pt-1 pb-3 px-4">Kafe Koding adalah sebuah komunitas yang bergerak di bidang IT, dan juga tempat sharing ilmu programing dan seputar dunia IT.</p>
+            </details>
+            <details>
+              <summary class="question py-3 px-4 cursor-pointer select-none w-full">Apakah bergabung di kafe koding gratis?</summary>
+              <p class="pt-1 pb-3 px-4">Ya, bergabung di kafe Koding 100% gratis tanpa di pungut biaya apapun.</p>
+            </details>
+            <details>
+              <summary class="question py-3 px-4 cursor-pointer select-none w-full">Siapa saja yang dapat bergabung di Kafekoding?</summary>
+              <p class="pt-1 pb-3 px-4">Semua orang dapat bergabung di kafekoding baik umum maupun mahasiswa.</p>
+            </details>
           </div>
-
-          <div>09</div>
+        </main>
+        </div>
+      </div>
+        <div>
+          <div class="flex justify-center items-center p-5 w-full ">
+            <div class="bg-gray-100 w-full sm:w-1/2 lg:w-[500px] border border-gray-200 divide-y divide-gray-200 rounded-lg ">
+              <details class="">
+                <summary class="question py-3 px-4 cursor-pointer select-none w-full outline-none">Bagaimana Cara bergabung di kelas kafe koding?</summary>
+                <p class="pt-1 pb-3 px-4">Kamu dapat menekan tombol “Mulai Bergabung” pada halaman beranda situs</p>
+              </details>
+              <details>
+                <summary class="question py-3 px-4 cursor-pointer select-none w-full">Kelas apa saja yang tersedia di kafe koding?</summary>
+                <p class="pt-1 pb-3 px-4">Kelas yang tersedia yaitu database, HTML dan CSS, Javascript, PHP dasar,Laravel, Python, UI/UX dan Desaign Grafis</p>
+              </details>
+              <details>
+                <summary class="question py-3 px-4 cursor-pointer select-none w-full"> Apa saja benefit bergabung di kelas Kafe koding?</summary>
+                <p class="pt-1 pb-3 px-4">Banyak benefit yang bisa kamu dapatkan mulai dari mendapatkan teman baru, informasi terbaru seputar IT serta sertifikat</p>
+              </details>
+            </div>
+          </main>
+          
+          </div>
         </div>
       </div>
     </section>
     <!-- End Pertanyaan -->
+    <!-- Footer -->
+   <section class=""> 
+    <footer class="text-center text-white mt-10">
+      <div class="container px-6 pt-6">
+        <div class="mb-6 flex justify-center">
+          <img class="" src="./Assets/Image/Logo KafeKoding.png" alt="">
+        </div>
+        <div>
+          <p class="text-center text-main font-semibold text-[20px] ">Kafe Koding</p>
+        </div>
+    
+        <div class="mb-6 flex justify-center">
+        <div class="flex mr-2">
+          <img src="./Assets/Image/icon_email.svg" class="w-6" alt="">
+          <p class="text-slate-900 font-light hidden lg:block ">kafekodingstmikip@gmail.com</p>
+        </div>
+        <div class="flex mr-2">
+          <img src="./Assets/Image/icon_instagram.svg" class="w-6" alt="">
+          <p class="text-slate-900 font-light hidden lg:block">Kafe koding</p>
+        </div>
+        <div class="flex mr-2">
+          <img src="./Assets/Image/icon_wa.svg" class="w-6" alt="">
+          <p class="text-slate-900 font-light hidden lg:block">+6283189726077</p>
+        </div>
+        </div>
+    
+        <div class="mb-6">
+          <p class="text-slate-900 font-light">
+            Universitas Metamedia, Jl. kahtib Sulaiman Kel. no.1 RT.004/RW.006 Lolong Belanti, Kec. Padang Utara, Kota Padang.
+          </p>
+        </div>
+      </div>
+    
+      <div
+      
+        class="p-4 text-center text-slate-900"
+        >
+        Made with ❤️ in Indonesia 
+      </div>
+    </footer>
+   </section>
+    <!-- End Footer -->
     <script src="./Assets/Main.js"></script>
   </body>
 </html>
